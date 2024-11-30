@@ -1,0 +1,12 @@
+{
+  "name": "bytesberry-overlay-loader",
+  "version": "1.0.1",
+  "description": "An overlay for every projects you build.",
+  "main": "index.js",
+  "repository": "https://github.com/sailendrachettri/bytesberry-overlay-loader.git",
+  "author": "sailendrachettri <sailendra9083@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bytesberry-overlay-loader": "^1.0.1"
+  }
+}
