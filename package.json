@@ -1,5 +1,5 @@
 {
-  "name": "bytesberry-overlay-loader",
+  "name": "@bytesberry/overlay-loader",
   "version": "1.0.1",
   "description": "An overlay for every projects you build.",
   "main": "index.js",
