@@ -23,7 +23,7 @@ Easily integrate the `OverlayLoader` component into your application:
 ```javascript
 import { OverlayLoader } from "@bytesberry/overlay-loader";
 
-<OverlayLoader />;
+<OverlayLoader />
 ```
 
 ## API Reference
