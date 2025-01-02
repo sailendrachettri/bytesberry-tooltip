@@ -1,5 +1,6 @@
 {
   "name": "@bytesberry/overlay-loader",
+  "description": "A lightweight and flexible utility for creating customizable overlay loaders.",
   "version": "2.7.13",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -17,9 +18,10 @@
     "react-loader",
     "overlay-loader"
   ],
-  "author": "Sailendra Chettri",
+  "repository": "https://github.com/sailendrachettri/bytesberry-overlay-loader.git",
+  "author": "sailendrachettri <sailendra9083@gmail.com>",
   "license": "ISC",
-  "description": "A lightweight and flexible utility for creating customizable overlay loaders.",
+  "private": false,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
