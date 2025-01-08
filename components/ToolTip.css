@@ -1,0 +1,97 @@
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  /* border-bottom: 1px dotted black; for dotted underline */
+  padding: 4px 5px; /* For spacing */
+  color: blueviolet;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 10;
+  white-space: nowrap;
+  font-size: 14px;
+  /* border: 1px dotted; */ 
+
+  /* Default position */
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Tooltip text arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  border-width: 6px;
+  border-style: solid;
+}
+
+/* Show tooltip */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Tooltip positions */
+.tooltip .tooltiptext.top {
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tooltip .tooltiptext.top::after {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: var(--arrow-color) transparent transparent transparent;
+}
+
+.tooltip .tooltiptext.bottom {
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tooltip .tooltiptext.bottom::after {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: transparent transparent var(--arrow-color) transparent;
+}
+
+.tooltip .tooltiptext.left {
+  right: 125%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tooltip .tooltiptext.left::after {
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-color: transparent transparent transparent var(--arrow-color);
+}
+
+.tooltip .tooltiptext.right {
+  left: 125%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tooltip .tooltiptext.right::after {
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-color: transparent var(--arrow-color) transparent transparent;
+}
+
+/* Dynamic arrow color */
+.tooltip .tooltiptext[data-arrow-color]::after {
+  --arrow-color: attr(data-arrow-color);
+}

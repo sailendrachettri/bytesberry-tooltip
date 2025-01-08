@@ -1,1 +1,1 @@
-export { default as OverlayLoader } from '../components/OverlayLoader.jsx'
+export { default as ToolTip } from '../components/ToolTip.jsx';
