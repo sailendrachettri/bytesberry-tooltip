@@ -1,7 +1,7 @@
 {
   "name": "@bytesberry/tooltip",
   "description": "A simple and customizable React tooltip component that provides an easy way to display informative hover messages.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "files": [
