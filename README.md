@@ -49,7 +49,7 @@ import {ToolTip} from "@bytesberry/tooltip";
 
 ### Props
 
-- **`hoverMessage`**  
+- **`hoverMessage`**   
   _Type_: `string`  
   _Default_: `"Your hover message."`  
   _Description_: Defines the message to display when the user hovers over the text.  
@@ -81,7 +81,7 @@ import {ToolTip} from "@bytesberry/tooltip";
 
 - **`tooltipColor`**  
   _Type_: `string`  
-  _Default_: `"blueviolet"`  
+  _Default_: `"#209647"`  
   _Description_: The color of the tooltip text.  
   _Example_:
 
@@ -91,7 +91,7 @@ import {ToolTip} from "@bytesberry/tooltip";
 
 - **`hoverMessageColor`**  
   _Type_: `string`  
-  _Default_: `"#fff"`  
+  _Default_: `"white"`  
   _Description_: The text color of the hover message.  
   _Example_:
 
@@ -101,7 +101,7 @@ import {ToolTip} from "@bytesberry/tooltip";
 
 - **`backgroundColor`**  
   _Type_: `string`  
-  _Default_: `"#333"`  
+  _Default_: `"#209647"`  
   _Description_: The background color of the tooltip.  
   _Example_:
 
