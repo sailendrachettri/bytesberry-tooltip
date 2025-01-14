@@ -16,6 +16,9 @@ Install the package using NPM:
 npm install @bytesberry/tooltip
 ```
 
+## Shapshots
+![Preview](https://drive.google.com/uc?export=view&id=1Gmg74awtq9N3vn5Wz5x0u-vG_4ZV4vSa)
+
 ## Usage
 
 You can easily integrate the `ToolTip` component into your React application:

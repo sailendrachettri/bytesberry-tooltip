@@ -5,10 +5,10 @@ const ToolTip = ({
   hoverMessage = "Your hover message.",
   text = "This is hover text",
   position = "top",
-  tooltipColor = "blueviolet",
-  hoverMessageColor = "#fff",
-  backgroundColor = "#333",
-  arrowColor = "#333",
+  tooltipColor,
+  hoverMessageColor,
+  backgroundColor,
+  arrowColor = "#209647",
   arrowVisibility = true
 }) => {
   const tooltipStyle = {
