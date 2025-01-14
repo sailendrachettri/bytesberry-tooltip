@@ -9,6 +9,7 @@ const ToolTip = ({
   hoverMessageColor = "#fff",
   backgroundColor = "#333",
   arrowColor = "#333",
+  arrowVisibility = true
 }) => {
   const tooltipStyle = {
     color: tooltipColor,
@@ -26,7 +27,8 @@ const ToolTip = ({
         className={`tooltiptext ${position}`}
         style={{
           ...hoverMessageStyle,
-          "--arrow-color": arrowColor, // Use inline CSS variable for arrow color
+          "--arrow-color": arrowColor,
+          "--arrow-display": arrowVisibility ? "block" : "none",
         }}
       >
         {hoverMessage}

@@ -6,13 +6,13 @@
   font-size: 16px;
   /* border-bottom: 1px dotted black; for dotted underline */
   padding: 4px 5px; /* For spacing */
-  color: blueviolet;
+  color: #209647;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: #333;
+  background-color: #209647;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -21,7 +21,7 @@
   z-index: 10;
   white-space: nowrap;
   font-size: 14px;
-  /* border: 1px dotted; */ 
+  /* border: 1px dotted; */
 
   /* Default position */
   opacity: 0;
@@ -34,6 +34,7 @@
   position: absolute;
   border-width: 6px;
   border-style: solid;
+  display: var(--arrow-display, block);
 }
 
 /* Show tooltip */
